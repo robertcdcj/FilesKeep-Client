@@ -1,0 +1,18 @@
+.UploadableFile {
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    background-color: #eeeeee;
+    transition-duration: 0.1s;
+}
+
+.UploadableFile:hover {
+    background-color: #c9c9c9;
+    transform: scale(0.95);
+    border: 1px solid black;
+}
+
+.fileName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,18 @@
+.container {
+    margin: 0 auto;
+    justify-content: center;
+    user-select: none;
+}
+
+.download {
+    background-color: #28a745;
+}
+
+.download div i {
+    color: white;
+    width: 2rem;
+}
+
+.download div i div {
+    color: white;
+}

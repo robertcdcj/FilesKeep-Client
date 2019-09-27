@@ -1,0 +1,12 @@
+.uploadButton {
+    display: block;
+    margin: 0 auto;
+}
+
+.dropArea {
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    overflow: auto;
+    margin: 0 auto;
+}

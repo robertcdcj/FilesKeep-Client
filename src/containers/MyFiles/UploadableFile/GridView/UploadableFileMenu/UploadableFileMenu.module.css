@@ -1,0 +1,25 @@
+.download {
+    background-color: #28a745;
+}
+
+.download div i {
+    color: white;
+    width: 2rem;
+}
+
+.download div div {
+    color: white;
+}
+
+.delete {
+    background-color: #dc3545;
+}
+
+.delete div i {
+    color: white;
+    width: 2rem;
+}
+
+.delete div div {
+    color: white;
+}

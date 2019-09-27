@@ -1,0 +1,46 @@
+.GridViewEntry {
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    background-color: #eeeeee;
+    transition-duration: 0.1s;
+    width: 12rem;
+}
+
+.GridViewEntry:hover, .Selected {
+    background-color: #c9c9c9;
+    transform: scale(0.95);
+    border: 1px solid gray;
+}
+
+.GridViewEntry:hover.Selected {
+    transform: scale(0.9);
+    border: 1px solid black;
+}
+
+.Selected {
+    border: 1px solid black;
+}
+
+.FileSize {
+    color: gray;
+}
+
+.FileName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@keyframes selection {
+    0% {
+        transform: scale(0.95)
+    }
+    50% {
+        transform: scale(0.5)
+    }
+    100% {
+        background-color: #c9c9c9;
+        transform: scale(0.95);
+        border: 1px solid black;
+    }
+}

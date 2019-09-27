@@ -1,0 +1,66 @@
+.UploadableFile {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 5px 3px;
+}
+
+.FullViewProgress {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 0;
+}
+
+.FullViewProgressBar {
+    opacity: 0.5;
+}
+
+.FullViewProgressBar.uploading {
+    opacity: 0.8;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 5px;
+    z-index: 1;
+}
+
+.successIcon {
+    color: green;
+}
+
+.abortButton {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition: background-color 0.5s ease;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.abortButton:hover {
+    background-color: rgb(90, 98, 104);
+}
+
+.abortButton:focus {
+    border: none;
+    outline: none;
+}
+
+.abortedIcon {
+    color: orange;
+}
+
+.cancelIcon {
+    color: red;
+}

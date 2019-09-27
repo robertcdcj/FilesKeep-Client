@@ -1,0 +1,14 @@
+.Button {
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Active {
+    color: black;
+    cursor: none;
+}

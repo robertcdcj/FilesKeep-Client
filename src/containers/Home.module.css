@@ -1,0 +1,18 @@
+.HalfWidthContent {
+    height: 45vh;
+    margin: 10px 0;
+}
+
+.Centered {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ImageIcon {
+    width: 90%;
+    margin: 10px;
+}

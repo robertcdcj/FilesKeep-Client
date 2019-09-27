@@ -1,0 +1,22 @@
+.uploadItemContainer {
+    margin: 2px auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.uploadItemContainer  img {
+    height: 40%;
+}
+
+.itemName {
+    line-height: 1em;
+    word-wrap: break-word;
+}
+
+.progressBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+.AddFolderButton {
+    border: none;
+    background-color: transparent;
+}
+
+.AddFolderButton:focus {
+    outline: none;
+}

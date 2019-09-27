@@ -1,0 +1,44 @@
+.container {
+    margin: 0 auto;
+    justify-content: center;
+    user-select: none;
+}
+
+.uploadButton {
+    display: block;
+    margin: 0 auto;
+}
+
+.dropArea {
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.download {
+    background-color: #28a745;
+}
+
+.download div i {
+    color: white;
+    width: 2rem;
+}
+
+.download div i div {
+    color: white;
+}
+
+.delete {
+    background-color: #dc3545;
+}
+
+.delete div i {
+    color: white;
+    width: 2rem;
+}
+
+.delete div i div{
+    color: white;
+}

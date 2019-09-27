@@ -1,0 +1,81 @@
+.UploadingView {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    bottom: 10px;
+    width: 40%;
+    min-width: 130px;
+    height: 30%;
+    z-index: 10;
+    box-shadow: 0 0 5px 0.5px black;
+    border-radius: 5px 5px 0 0;
+}
+
+.minimized {
+    height: fit-content;
+}
+
+.InfoBar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+}
+
+@media (max-width: 671px) {
+    .UploadingView:not(.minimized) {
+        height: 40%;
+    }
+    .InfoBar {
+        height: 100px;
+    }
+}
+
+.InfoBar span {
+    color: white;
+}
+
+.buttonHolder {
+    width: max-content;
+}
+
+.buttonHolder > button {
+    margin: 0 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition-duration: 0.1s;
+    transition: background-color 0.5s ease;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.buttonHolder > button:focus {    
+    border: none;
+    outline: none;
+}
+
+.buttonHolder > button:hover {    
+    background-color: rgb(90, 98, 104);
+}
+
+.ItemContainer {
+    background-color: white;
+    width: 100%;
+    overflow-y: auto;
+    flex: 1;
+}
+
+
+
+.MinimizeButton {
+    right: 0;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    margin: auto;
+}
