@@ -11,6 +11,11 @@ class AddFolderModal extends Component {
         });
     }
 
+    createFolder = () => {
+        this.props.createFolder(this.getInputText());
+        window.jQuery(`#addFolderModal`).modal("hide");
+    };
+
     clearText = () => {
         this.inputRef.current.value = "";
     }
@@ -32,16 +37,18 @@ class AddFolderModal extends Component {
                             </button>
                         </div>
 
-                        <div class="modal-body">
-                            <div class="input-group mb-3 d-flex">
-                                <input className="flex-grow-1" ref={this.inputRef} type="text" placeholder="Folder Name" defaultValue="" />
+                        <form onSubmit={(e) => { e.preventDefault(); this.createFolder(); }}>
+                            <div class="modal-body">
+                                <div class="input-group mb-3 d-flex">
+                                    <input className="flex-grow-1" ref={this.inputRef} type="text" placeholder="Folder Name" defaultValue="" />
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-success" data-dismiss="modal" onClick={() => { this.props.createFolder(this.getInputText()) }}>Create</button>
-                        </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal" onClick={this.createFolder}>Create</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
