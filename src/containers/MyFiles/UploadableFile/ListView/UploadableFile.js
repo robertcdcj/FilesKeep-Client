@@ -87,7 +87,6 @@ class UploadableFile extends Component {
                     {uploadStatusButton}
 
                     {/* {progressBar} */}
-                    {file.uploading ? <button>Cancel</button> : null}
                 </div>
 
             </div>

@@ -25,19 +25,6 @@ class Footer extends Component {
 
                                 <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
 
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <p>
-                                            <a href="#!">PROJECTS</a>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <a href="#!">ABOUT</a>
-                                        </p>
-                                    </li>
-                                </ul>
-
                             </div>
 
                             <hr class="clearfix w-100 d-md-none" />
@@ -53,11 +40,11 @@ class Footer extends Component {
                                     </li>
                                     <li>
                                         <p>
-                                            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                                            <i class="fas fa-envelope mr-3"></i> robertcdcj@gmail.com</p>
                                     </li>
                                     <li>
                                         <p>
-                                            <i class="fas fa-phone mr-3"></i> (604)123-4567</p>
+                                            <i class="fas fa-phone mr-3"></i> (604) 352-9593</p>
                                     </li>
                                 </ul>
 
@@ -70,9 +57,7 @@ class Footer extends Component {
 
                     </div>
 
-                    <div className={["text-center py-3", classes.copyright].join(" ")}>© 2019 Copyright:
-                        <a href="#"> link.com</a>
-                    </div>
+                    <div className={["text-center py-3", classes.copyright].join(" ")}>© 2019 Copyright: Robert Hsieh</div>
 
                 </footer>
             </div>

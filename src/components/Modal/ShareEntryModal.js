@@ -54,7 +54,7 @@ class ShareEntryModal extends Component {
                 <div class="input-group mb-3">
                     <input ref={this.publicShareTextboxRef} type="text" class="form-control" value={shareURL} aria-label="Recipient's username" aria-describedby="basic-addon2" />
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" onClick={this.copyPublicShareTextboxValue}>Copy</button>
+                        <button class="btn btn-outline-secondary" type="button" onClick={this.copyPublicShareTextboxValue}>Copy URL</button>
                     </div>
                 </div>
             );
